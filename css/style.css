@@ -47,3 +47,45 @@ body {
     background-color: #7e7e7e;
     font-size : 20px;
 }
+
+.carrousel {
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background-color: rgb(199, 198, 198);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 50px;
+}
+
+.colaboraciones {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+h2 {
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.colaboradores {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.colaboradores img{
+    align-content: center;
+    width: 50%;
+    padding: 20px;
+}
