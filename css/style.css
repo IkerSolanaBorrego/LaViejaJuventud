@@ -50,8 +50,8 @@ body {
 }
 
 .carrousel {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 50px;
     padding-bottom: 50px;
     width: 100%;
@@ -101,6 +101,10 @@ h2 {
     align-content: center;
 }
 
+.titulocontacto {
+    width: 100%;
+}
+
 .contenedor3 {
     min-height: 100vh;
     display: flex;
@@ -110,6 +114,7 @@ h2 {
     width: 50%;
     padding: 50px;
 }
+
 
 .formulario {
     width: 100%;
@@ -144,4 +149,54 @@ h2 {
 
 p {
     font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+@media (max-width: 1400px) {
+    .infocontacto {
+        width: 100%;
+    }
+    .contenedor3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carrousel {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .colaboradores {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .infocontenedor{
+        width: 100%;
+    }
+    .boton {
+        font-size: 15px;
+    }
+    .carrousel {
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contenedor {
+        padding: 50px;
+    }
+    .carrousel {
+        padding: 50px;
+    }
+    .colaboradores {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
