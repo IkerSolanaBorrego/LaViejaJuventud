@@ -398,6 +398,80 @@ p {
 }
 /* Acaban los estilos para la página "Quienes somos" */
 
+/* Estilos para la página "Como formar parte" */
+.formulario2 {
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    padding: 25px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);   
+}
+
+.contenedor4 {
+    background-color: #90eb74;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.colaboraciones2{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+}
+
+.cuadro2 {
+    background: white;
+    border: 3px solid #198754;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 8px 8px 0px #90eb74;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+}
+.cuadro2 h2 {
+    font-size: 40px;
+}
+.cuadro2 p{
+    text-align: justify;
+}
+.cuadrogrande2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.cuadro2:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 12px 12px 0px #198754;
+}
+
+.boton2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-color:rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: #000000 solid 2px;
+}
+
+.boton2:hover {
+    background-color: #c2bfbf;
+    font-size : 22px;
+}
+
+/* Acaban los estilos para la página "Como formar parte" */
 
 @media (max-width: 1400px) {
     .infocontacto {
@@ -466,6 +540,16 @@ p {
     }
     .colaboradores img {
         width: 100%;
+    }
+    .cuadrogrande2 {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cuadro2 {
+        width: 90%;
+        padding: 20px;
+        flex: none;
     }
 }
 
