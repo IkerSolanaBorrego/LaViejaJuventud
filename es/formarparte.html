@@ -83,65 +83,75 @@
     <br>
     <br>
   
+    <form action="https://formspree.io/f/xeedjoqz" method="POST">
 
-     <div class="contenedor4">
+        <div class="contenedor4">
             <div class="formulario2">
-                <h3 class="titulo2">Inscribete aquí</h3>
+
+                <h3 class="titulo2">Inscríbete aquí</h3>
+
                 <div class="campo">
                     <label class="etiqueta">Nombre</label>
-                    <input type="text" class="entrada" placeholder="Tu nombre">
-                </div>
-                <div class="campo">
-                    <label class="etiqueta">Apellidos</label>
-                    <input type="text" class="entrada" placeholder="Tus apellidos">
-                </div>
-                <div class="campo">
-                    <label class="etiqueta">Corro electronico</label>
-                    <input type="email" class="entrada" placeholder="name@ejemplo.com">
-                </div>
-                <div class="campo">
-                    <label class="etiqueta">Numero de telefono</label>
-                    <input type="text" class="entrada" placeholder="+34 XXXXXXXXX"></input>
+                    <input type="text" name="nombre" class="entrada" placeholder="Tu nombre">
                 </div>
 
-               <div class="form-check">
-                    <label class="etiqueta">¿Como quieres ayudar?</label>
-                    <input class="form-check-input" type="checkbox" value="" id="checkDefault">
-                    <label class="form-check-label" for="checkDefault">
+                <div class="campo">
+                    <label class="etiqueta">Apellidos</label>
+                    <input type="text" name="apellidos" class="entrada" placeholder="Tus apellidos">
+                </div>
+
+                <div class="campo">
+                    <label class="etiqueta">Correo electrónico</label>
+                    <input type="email" name="email" class="entrada" placeholder="name@ejemplo.com">
+                </div>
+
+                <div class="campo">
+                    <label class="etiqueta">Número de teléfono</label>
+                    <input type="text" name="telefono" class="entrada" placeholder="+34 XXXXXXXXX">
+                </div>
+
+                <div class="form-check">
+                    <label class="etiqueta">¿Cómo quieres ayudar?</label><br>
+
+                    <input class="form-check-input" type="checkbox" name="ayuda[]" value="Llamadas de acompañamiento" id="check1">
+                    <label class="form-check-label" for="check1">
                         Llamadas de acompañamiento
                     </label>
                 </div>
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                    <label class="form-check-label" for="checkChecked">
+
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="ayuda[]" value="Visitas domiciliarias" id="check2">
+                    <label class="form-check-label" for="check2">
                         Visitas domiciliarias
                     </label>
-                    </div>
+                </div>
 
-                    <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                    <label class="form-check-label" for="checkChecked">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="ayuda[]" value="Detección de aislamiento" id="check3">
+                    <label class="form-check-label" for="check3">
                         Detección de aislamiento
                     </label>
-                    </div>
+                </div>
 
-                     <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="checkChecked" checked>
-                    <label class="form-check-label" for="checkChecked">
-                        Soporte emoocional
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="ayuda[]" value="Soporte emocional" id="check4">
+                    <label class="form-check-label" for="check4">
+                        Soporte emocional
                     </label>
-                    </div>
-                    
+                </div>
+
                 <br>
 
                 <div>
-                    <button class="boton2">Enviar</button>
+                    <button type="submit" class="boton2">Enviar</button>
                 </div>
+
                 <br>
+
             </div>
         </div>
-    </div>
 
+    </form>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
